@@ -1,0 +1,39 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcsui018",
+    "ui": {
+        "allow": [
+            "autoAdvance"
+        ],
+        "inputType": "radio"
+    },
+    "question": "### Attempt 1\r\n\r\n_INTERVIEWER: How **potentially lethal** was the attempt?_",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "No danger (no effects/held pills in hand)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "Moderate (10 seconds/briefly unconscious)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "Severe (i.e. cut throat)",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 9,
+                "schema:name": "No information",
+                "@type": "schema:option"
+            }
+        ],
+        "requiredValue": ""
+    }
+}

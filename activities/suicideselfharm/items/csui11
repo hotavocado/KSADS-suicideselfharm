@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "csui11",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "### Self-Harm\r\n\r\n_INTERVIEWER:  This is self-mutilation or self-damage NOT accompanied by the wish or intention to die.  Code NO if **only** under context of suicidal ideation or behavior._",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "csui4",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "Now I am going to ask you some things about that time/each of these times:",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

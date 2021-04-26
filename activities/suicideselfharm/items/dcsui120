@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcsui120",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "Why did you do that? Describe:",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "dcsui056",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "### Attempt 3\r\n\r\nSpecify (Other context):",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-suicideselfharm/master/protocols/KSADS_suicideselfharm/KSADS_suicideselfharm_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_suicideselfharm_schema",
+    "skos:prefLabel": "Suicide/Self-harm",
+    "schema:description": "Suicide/Self-harm section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-suicideselfharm/master/protocols/KSADS_suicideselfharm/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "suicideselfharm",
+                "isAbout": "suicideselfharm",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "suicideselfharm"
+        ],
+        "shuffle": false
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "csui2",
+    "ui": {
+        "inputType": "static"
+    },
+    "question": "_INTERVIEWER: **If these thoughts are current,  report to clinician**._",
+    "responseOptions": {
+        "requiredValue": ""
+    }
+}
